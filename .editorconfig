@@ -1,0 +1,31 @@
+root = true
+
+[*.cs]
+indent_style = space
+indent_size = 4
+charset = utf-8-bom
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Kolejność using - System.* na górze
+dotnet_sort_system_directives_first = true
+
+# Preferuj var, gdy typ jest oczywisty z prawej strony
+csharp_style_var_when_type_is_apparent = true:suggestion
+
+# Styl nawiasów klamrowych (każdy w nowej linii, konwencja C#)
+csharp_new_line_before_open_brace = all
+
+[*.{xml,csproj,props,targets}]
+indent_style = space
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{json,yml,yaml}]
+indent_style = space
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
