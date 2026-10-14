@@ -1,0 +1,9 @@
+/Kurs
+/research
+/roadmap
+bin/
+obj/
+.vs/
+*.user
+TestResults/
+*.binlog

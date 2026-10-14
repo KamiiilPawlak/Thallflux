@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ThallTuner.Core/ThallTuner.Core.csproj" />
+  <Project Path="ThallTuner.Data/ThallTuner.Data.csproj" />
+  <Project Path="ThallTuner.Maui/ThallTuner.Maui.csproj" />
+  <Project Path="ThallTuner.Tests/ThallTuner.Tests.csproj" />
+</Solution>
